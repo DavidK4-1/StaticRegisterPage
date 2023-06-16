@@ -1,0 +1,84 @@
+body {
+    background-color: #76c8ff;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    background-color: white;
+    text-align: right;
+    padding: .64rem 0;
+    border-bottom: solid 1px dimgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+                0 6px 20px rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+header a {
+    color: white;
+    background-color: #13a0ff;
+    border: solid 1px grey;
+    border-radius: 3px;
+    padding: .25rem .5rem;
+    margin-right: .5rem;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+
+header a:hover, form button:hover {
+    background-color: #1084d1;
+    cursor: pointer;
+}
+
+.container {
+    margin: 4.1rem auto;
+    min-height: 350px;
+    padding: 1.2rem;
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+                0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+/*for only next imediate*/
+.container > h1 {
+    margin: 0 0 .5rem;
+}
+
+form input, form button {
+    width: 100%;
+    min-width: 300px;
+    box-sizing: border-box;
+    margin: .65em 0;
+    padding: .05rem;
+    line-height: 1.5rem;
+    font-size: 1em;
+}
+
+form button {
+    color: white;
+    background-color: #13a0ff;
+    border-radius: 5px;
+    
+}
+
+footer {
+    margin-top: .65rem;
+    border-top: solid 1px lightgray;
+    padding-top: .9rem;
+    text-align: center;
+}
+
+footer img {
+    margin: 0 .4rem;
+}
+
+footer img:hover {
+    cursor: pointer;
+}
